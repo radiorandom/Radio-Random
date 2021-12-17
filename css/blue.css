@@ -44,15 +44,18 @@ a,
 .contact-form .submit-button{
 	background: #1d752a;
 }
+.vivo:hover{
+	color: #e11fff;
+}
 
 a:hover{
-	color: #1FA3FF;
+	color: #e11fff;
 }
 
 .contact-form .submit-button:hover,
 .submit-bt:hover,
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
-	border-color: #1FA3FF;
+	border-color: #e11fff;
 }
 
 .member-social .facebook-icon i:hover,
@@ -62,7 +65,7 @@ a:hover{
 .contact-form .submit-button:hover,
 .submit-bt:hover,
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
-	background: #1FA3FF;
+	background: #e11fff;
 }
 
 
