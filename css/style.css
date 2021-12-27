@@ -1,23 +1,4 @@
-/*
-	Technology by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
-
-/*
-====================================
-------------------------------------
-	1. General
-	2. Home
-	3. Social Icons
-	4. Service
-	5. About
-	6. Contact
-	7. Footer
--------------------------------------
-=====================================
-*/
 
 /* === General === */
 	@import url(http://fonts.googleapis.com/css?family=PT+Sans|Lato:700,900);
@@ -112,6 +93,8 @@
 		background-size: cover;
 	}
 
+	
+
 	.home-bg{
 		background: rgba(0, 0, 0, 0.7);
 		padding-top: 100px;
@@ -135,6 +118,8 @@
 		font-weight: 900;
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
+		text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+		
 	}
 
 	.home-page p{
@@ -143,78 +128,7 @@
 		margin-bottom: 20px;
 	}
 
-	.tk-countdown {
-		color: #a4d;
-		margin-top: 35px;
-		text-align: center;
-		margin-bottom: 65px;
-	}
-
-	.tk-countdown > * {
-		text-align: center;
-	}
-
-	.tk-countdown div.days{
-		border: 2px solid;
-		border-radius: 0px;
-		width: 120px;
-		height: 120px;
-		padding-top: 15px;
-		margin: 15px;
-	}
-
-	.tk-countdown div.hours{
-		border: 2px solid;
-		border-radius: 0px;
-		width: 120px;
-		height: 120px;
-		padding-top: 15px;
-		margin: 15px;
-	}
-
-	.tk-countdown div.minutes{
-		border: 2px solid;
-		border-radius: 0px;
-		width: 120px;
-		height: 120px;
-		padding-top: 15px;
-		margin: 15px;
-	}
-
-	.tk-countdown div.seconds{
-		border: 2px solid;
-		border-radius: 0px;
-		width: 120px;
-		height: 120px;
-		padding-top: 15px;
-		margin: 15px;
-	}
-
-	.tk-countdown div {
-		display: inline-block;
-	}
-
-	.tk-countdown div span {
-		display: block; 
-	}
-
-	.tk-countdown div span:first-child {
-		height: 64px;
-		font-family: 'pt sans', sans-serif;
-		font-weight: 300;
-		font-size: 60px;
-		line-height: 64px;
-		color: #f7f7f7;
-	}
-
-	.tk-countdown div span:last-child {
-		height: 20px;
-		font-family: 'pt sans', sans-serif;
-		font-weight: 300;
-		font-size: 18px;
-		line-height: 20px;
-	}
-
+	
 	.subscribe-area .form-control{
 		background: transparent;
 		border: 1px solid;
@@ -256,7 +170,6 @@
 	.st-subscribe-message .fa-check{
 		color: #00C227;
 	}
-
 
 /* === Social Icons === */
 	.social-shear{
@@ -603,6 +516,7 @@
 		padding-bottom: 40px;
 		color: rgba(255, 255, 255, 0.4);
 		background-color: #262626;
+		font-size: 20px;
 	}
 
 
@@ -612,6 +526,15 @@
 
 /* Small devices (mobiles, 320px and up) */
 @media (min-width: 320px) and (max-width: 479px){
+
+
+
+	.a{
+		padding: 18px 12px 20px 14px;
+		width: 270px;
+		border-radius: 0px 0px 0px 0px;
+		margin-right: 0px;
+	}
 	.subscribe-area .form-control {
 		padding: 18px 12px 20px 14px;
 		width: 270px;
