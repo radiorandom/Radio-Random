@@ -10,7 +10,6 @@ DEEP COLOR CODE: #028852
 
 a,
 .home-page h1,
-.tk-countdown div span:last-child,
 .social-shear a i,
 .service-aro-icon,
 .service i,
@@ -18,10 +17,7 @@ a,
 	color: #00ab66;
 }
 
-.tk-countdown div.days,
-.tk-countdown div.hours,
-.tk-countdown div.minutes,
-.tk-countdown div.seconds,
+
 .subscribe-area .form-control,
 .submit-bt,
 .social-shear a i,
@@ -63,4 +59,8 @@ a:hover{
 .submit-bt:hover,
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
 	background: #028852;
+}
+
+#about-page2 i {
+	color: #000;
 }

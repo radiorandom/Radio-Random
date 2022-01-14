@@ -19,6 +19,10 @@
 		overflow-x: hidden;
 	}
 
+	a .cafe{
+		background: green;
+	}
+
 	a:hover {
 		outline: none;
 		text-decoration:none;
@@ -213,11 +217,13 @@
 		margin: 0 auto;
 	}
 
+
 	.service-aro-left {
 		width: 150px;
 		height: 1px;
 		float: left;
 		margin-top: 16px;
+
 	}
 
 	.service-aro-right {
@@ -237,7 +243,7 @@
 	}
 
 	#service-page h2{
-		color: #808b8d;
+		color: #000000;
 		font-size: 24px;
 		text-transform: uppercase;
 		margin-top: 30px;
@@ -245,7 +251,7 @@
 	}
 
 	#service-page p{
-		color: #808b8d;
+		color: #000000;
 		font-size: 14px;
 		margin-bottom: 40px;
 	}
@@ -290,6 +296,20 @@
 		padding: 100px 0px;
 	}
 
+	#about-page2{
+		background-color:#EDC9CD;	
+		color: #000;
+	}
+
+	#about-page2 h3 {
+		color:#ff2;
+	}
+
+	#about-page2 span {
+		color: #000;
+	}
+
+
 	#about-page .about-title{
 		color: #f4f4f4;
 		font-size: 30px;
@@ -297,8 +317,9 @@
 		padding-bottom: 18px;
 	}
 
+
 	#about-page h2{
-		color: #808b8d;
+		color: #f4f4f4;
 		font-size: 24px;
 		text-transform: uppercase;
 		margin-top: 30px;
@@ -306,7 +327,7 @@
 	}
 
 	#about-page p{
-		color: #808b8d;
+		color: #f4f4f4;
 		font-size: 14px;
 		margin-bottom: 40px;
 	}
@@ -401,24 +422,6 @@
 	.member .member-img:hover .twitter-icon i{
 		right: 114px;
 		z-index: 300;
-	}
-
-	.member-social .linkedin-icon i{
-		color: #ffffff;
-		font-size: 20px;
-		width: 35px;
-		height: 35px;
-		line-height: 35px;
-		border-radius: 0px;
-		margin: 1px;
-		position: absolute;
-		bottom: 114px;
-		left: -0px;
-		z-index: -999;
-		-webkit-transition: all 0.3s ease;
-		-moz-transition: all 0.3s ease;
-		-o-transition: all 0.3s ease;
-		transition: all 0.3s ease;
 	}
 
 	.member .member-img:hover .linkedin-icon i{
@@ -529,7 +532,7 @@
 		clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 		animation-name: desplazarse;
 		animation-duration: 3s;
-		animation-iteration-count: 5;
+		animation-iteration-count: infinite;
 		animation-direction: alternate;
 		animation-timing-function: ease-in;
 		
@@ -563,6 +566,7 @@
 
 
 	.a{
+
 		padding: 18px 12px 20px 14px;
 		width: 270px;
 		border-radius: 0px 0px 0px 0px;
